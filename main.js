@@ -29,7 +29,7 @@ export const userDiv = (data) => {
             <p class="bg-black text-white p-2 rounded-full shadow-md">
               ${data}
             </p>
-            <img src="./public/user.jpg" alt="user icon" class="w-10 h-10 rounded-full" />
+            <img src="../public/user.jpg" alt="user icon" class="w-10 h-10 rounded-full" />
           </div>
           `;
 };
@@ -45,7 +45,7 @@ export const aiDiv = (data) => {
     
     <div class="mx-12">
       <img
-      src="./public/bot.jpg"
+      src="../public/bot.jpg"
       alt="user icon"
       class="w-10 h-10 rounded-full ai-icon"
       />
